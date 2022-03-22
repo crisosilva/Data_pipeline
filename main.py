@@ -76,7 +76,7 @@ class conn_postgre(object):
 
 if __name__ == '__main__':
 
-    postgres = conn_postgre('localhost', 'db_trends', 'postgres', '@Cris1988')
+    postgres = conn_postgre('localhost', 'xxx', 'xxx', 'xxx')
     gt = google_trends()
     trends = gt.acquire_trends()
     string_trends = "'" + "','".join(trends) + "'"
